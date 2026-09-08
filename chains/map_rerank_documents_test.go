@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/prompts"
+	"github.com/FieryLynx73/langchaingo/schema"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/prompts"
-	"github.com/tmc/langchaingo/schema"
 )
 
 func TestMapRerankInputVariables(t *testing.T) {

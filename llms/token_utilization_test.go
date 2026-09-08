@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tmc/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/llms"
 )
 
 // MockLLMWithTokenUsage is a mock LLM that returns token usage information

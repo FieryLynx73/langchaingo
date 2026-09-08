@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/tools"
-	"github.com/tmc/langchaingo/tools/duckduckgo/internal"
+	"github.com/FieryLynx73/langchaingo/callbacks"
+	"github.com/FieryLynx73/langchaingo/tools"
+	"github.com/FieryLynx73/langchaingo/tools/duckduckgo/internal"
 )
 
 // DefaultUserAgent defines a default value for user-agent header.

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/llms/bedrock"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/bedrock"
 )
 
 // hasExistingRecording checks if a httprr recording exists for this test

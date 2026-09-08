@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FieryLynx73/langchaingo/llms"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/llms"
 )
 
 // TestOpenRouterStreamingPrefix tests that the client correctly handles OpenRouter's ":openrouter" prefix

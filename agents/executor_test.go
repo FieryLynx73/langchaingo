@@ -6,15 +6,15 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/agents"
+	"github.com/FieryLynx73/langchaingo/chains"
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/llms/openai"
+	"github.com/FieryLynx73/langchaingo/prompts"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/tools"
+	"github.com/FieryLynx73/langchaingo/tools/serpapi"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/agents"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/prompts"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/tools"
-	"github.com/tmc/langchaingo/tools/serpapi"
 )
 
 type testAgent struct {

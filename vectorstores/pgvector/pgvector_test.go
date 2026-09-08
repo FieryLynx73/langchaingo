@@ -9,6 +9,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FieryLynx73/langchaingo/chains"
+	"github.com/FieryLynx73/langchaingo/embeddings"
+	"github.com/FieryLynx73/langchaingo/httputil"
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/internal/testutil/testctr"
+	"github.com/FieryLynx73/langchaingo/llms/googleai"
+	"github.com/FieryLynx73/langchaingo/llms/openai"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/vectorstores"
+	"github.com/FieryLynx73/langchaingo/vectorstores/pgvector"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
 	"github.com/stretchr/testify/require"
@@ -16,16 +26,6 @@ import (
 	"github.com/testcontainers/testcontainers-go/log"
 	tcpostgres "github.com/testcontainers/testcontainers-go/modules/postgres"
 	"github.com/testcontainers/testcontainers-go/wait"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/httputil"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/internal/testutil/testctr"
-	"github.com/tmc/langchaingo/llms/googleai"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/pgvector"
 )
 
 func createOpenAIEmbedder(t *testing.T) *embeddings.EmbedderImpl {

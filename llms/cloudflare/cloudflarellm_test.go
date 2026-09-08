@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/llms/cloudflare/internal/cloudflareclient"
 	"github.com/stretchr/testify/assert"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/cloudflare/internal/cloudflareclient"
 )
 
 func TestNew(t *testing.T) {

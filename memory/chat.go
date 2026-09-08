@@ -3,8 +3,8 @@ package memory
 import (
 	"context"
 
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/schema"
 )
 
 // ChatMessageHistory is a struct that stores chat messages.

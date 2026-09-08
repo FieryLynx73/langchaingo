@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/ollama/internal/ollamaclient"
+	"github.com/FieryLynx73/langchaingo/callbacks"
+	"github.com/FieryLynx73/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/llms/ollama/internal/ollamaclient"
 )
 
 var (

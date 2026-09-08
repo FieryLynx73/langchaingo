@@ -7,8 +7,8 @@ import (
 	"io"
 
 	"github.com/AssemblyAI/assemblyai-go-sdk"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/textsplitter"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/textsplitter"
 )
 
 // ErrMissingAudioSource is returned when neither an audio URL nor a reader has

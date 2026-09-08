@@ -13,7 +13,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tmc/langchaingo/httputil"
+	"github.com/FieryLynx73/langchaingo/httputil"
 )
 
 type Client struct {

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/llms/huggingface"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms/huggingface"
 )
 
 func TestHuggingfaceEmbeddings(t *testing.T) {

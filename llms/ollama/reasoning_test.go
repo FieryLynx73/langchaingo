@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tmc/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/llms"
 )
 
 func TestOllama_SupportsReasoning(t *testing.T) {

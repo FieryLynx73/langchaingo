@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/llms"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/llms"
 )
 
 func TestAnthropicToolCallSupport(t *testing.T) {

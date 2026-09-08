@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms/openai"
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/llms/openai"
 )
 
 // nolint

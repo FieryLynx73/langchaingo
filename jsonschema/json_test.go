@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tmc/langchaingo/jsonschema"
+	"github.com/FieryLynx73/langchaingo/jsonschema"
 )
 
 func TestDefinition_MarshalJSON(t *testing.T) { //nolint:funlen
@@ -183,7 +183,7 @@ func TestDefinition_MarshalJSON(t *testing.T) { //nolint:funlen
 			}
 
 			got := structToMap(t, tt.def)
-			gotPtr := structToMap(t, &tt.def) //#nosec G601 -- false positive now that we're on go 1.22+
+			gotPtr := structToMap(t, &tt.def) // #nosec G601 -- false positive now that we're on go 1.22+
 
 			if !reflect.DeepEqual(got, want) {
 				t.Errorf("MarshalJSON() got = %v, want %v", got, want)

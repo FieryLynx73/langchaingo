@@ -40,9 +40,9 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/FieryLynx73/langchaingo/prompts/internal/fstring"
+	sanitization "github.com/FieryLynx73/langchaingo/prompts/internal/sanitization"
 	"github.com/Masterminds/sprig/v3"
-	"github.com/tmc/langchaingo/prompts/internal/fstring"
-	sanitization "github.com/tmc/langchaingo/prompts/internal/sanitization"
 )
 
 // ErrInvalidTemplateFormat is the error when the template format is invalid and

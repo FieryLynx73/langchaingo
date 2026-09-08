@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/httputil"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/cloudflare/internal/cloudflareclient"
+	"github.com/FieryLynx73/langchaingo/callbacks"
+	"github.com/FieryLynx73/langchaingo/httputil"
+	"github.com/FieryLynx73/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/llms/cloudflare/internal/cloudflareclient"
 )
 
 var (

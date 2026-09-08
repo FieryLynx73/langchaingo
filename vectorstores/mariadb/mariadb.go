@@ -12,10 +12,10 @@ import (
 	// required for mysql driver used by MariaDB.
 	_ "github.com/go-sql-driver/mysql"
 
+	"github.com/FieryLynx73/langchaingo/embeddings"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/vectorstores"
 	"github.com/google/uuid"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
 )
 
 var (

@@ -6,6 +6,10 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/chains"
+	"github.com/FieryLynx73/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/vectorstores"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockagent"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockagent/types"
@@ -13,10 +17,6 @@ import (
 	runtimetypes "github.com/aws/aws-sdk-go-v2/service/bedrockagentruntime/types"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
 )
 
 type testModel struct{}

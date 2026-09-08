@@ -7,13 +7,13 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/chains"
+	"github.com/FieryLynx73/langchaingo/httputil"
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/llms/openai"
+	"github.com/FieryLynx73/langchaingo/memory"
+	"github.com/FieryLynx73/langchaingo/tools"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/chains"
-	"github.com/tmc/langchaingo/httputil"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/memory"
-	"github.com/tmc/langchaingo/tools"
 )
 
 // hasExistingRecording checks if a httprr recording exists for this test

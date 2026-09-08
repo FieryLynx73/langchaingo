@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tmc/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/schema"
 )
 
 func TestCombine(t *testing.T) {

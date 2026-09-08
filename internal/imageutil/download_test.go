@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/httputil"
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/httputil"
-	"github.com/tmc/langchaingo/internal/httprr"
 )
 
 func requireHttprrRecording(t *testing.T) *httprr.RecordReplay {
