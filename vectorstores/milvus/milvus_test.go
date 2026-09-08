@@ -7,19 +7,19 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/embeddings"
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/internal/testutil/testctr"
+	"github.com/FieryLynx73/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/llms/openai"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/vectorstores"
 	"github.com/milvus-io/milvus-sdk-go/v2/client"
 	"github.com/milvus-io/milvus-sdk-go/v2/entity"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	tclog "github.com/testcontainers/testcontainers-go/log"
 	tcmilvus "github.com/testcontainers/testcontainers-go/modules/milvus"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/internal/testutil/testctr"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
 )
 
 // createOpenAIEmbedder creates an OpenAI embedder with httprr support for testing.

@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/tmc/langchaingo/llms/ollama/internal/ollamaclient"
+	"github.com/FieryLynx73/langchaingo/llms/ollama/internal/ollamaclient"
 )
 
 type options struct {

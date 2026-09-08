@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 
+	"github.com/FieryLynx73/langchaingo/llms"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
-	"github.com/tmc/langchaingo/llms"
 )
 
 // Ref: https://boto3.amazonaws.com/v1/documentation/api/1.35.8/reference/services/bedrock-runtime/client/converse.html

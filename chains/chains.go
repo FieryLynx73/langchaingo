@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/callbacks"
+	"github.com/FieryLynx73/langchaingo/schema"
 )
 
 // Key name used to store the intermediate steps in the output, when configured.

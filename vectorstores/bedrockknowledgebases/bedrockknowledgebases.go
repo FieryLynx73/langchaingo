@@ -6,6 +6,8 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/vectorstores"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/bedrockagent"
@@ -15,8 +17,6 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	smithyDocument "github.com/aws/smithy-go/document"
 	"github.com/google/uuid"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
 )
 
 type bedrockAgentAPI interface {

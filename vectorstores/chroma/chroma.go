@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"maps"
 
+	"github.com/FieryLynx73/langchaingo/embeddings"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/vectorstores"
 	chromago "github.com/amikos-tech/chroma-go"
 	"github.com/amikos-tech/chroma-go/openai"
 	chromatypes "github.com/amikos-tech/chroma-go/types"
 	"github.com/google/uuid"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
 )
 
 var (

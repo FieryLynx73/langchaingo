@@ -3,9 +3,9 @@ package outputparser
 import (
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/schema"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/schema"
 )
 
 func TestBooleanParser_GetFormatInstructions(t *testing.T) {

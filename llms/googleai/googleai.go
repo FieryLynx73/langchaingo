@@ -9,9 +9,9 @@ import (
 	"io"
 	"strings"
 
+	"github.com/FieryLynx73/langchaingo/internal/imageutil"
+	"github.com/FieryLynx73/langchaingo/llms"
 	"github.com/google/generative-ai-go/genai"
-	"github.com/tmc/langchaingo/internal/imageutil"
-	"github.com/tmc/langchaingo/llms"
 	"google.golang.org/api/iterator"
 )
 

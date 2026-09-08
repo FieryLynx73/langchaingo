@@ -8,13 +8,13 @@ import (
 	"os"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/embeddings"
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/llms/openai"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/util/alloydbutil"
+	"github.com/FieryLynx73/langchaingo/vectorstores/alloydb"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/util/alloydbutil"
-	"github.com/tmc/langchaingo/vectorstores/alloydb"
 )
 
 type EnvVariables struct {

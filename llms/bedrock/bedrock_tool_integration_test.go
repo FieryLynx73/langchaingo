@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/llms"
+	"github.com/FieryLynx73/langchaingo/llms/bedrock"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/bedrock"
 )
 
 func TestBedrockAnthropicToolCalling(t *testing.T) { //nolint:funlen

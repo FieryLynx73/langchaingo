@@ -3,8 +3,8 @@ package compliance_test
 import (
 	"testing"
 
-	"github.com/tmc/langchaingo/llms/compliance"
-	"github.com/tmc/langchaingo/llms/fake"
+	"github.com/FieryLynx73/langchaingo/llms/compliance"
+	"github.com/FieryLynx73/langchaingo/llms/fake"
 )
 
 // ExampleCompliance demonstrates how to use the compliance test suite

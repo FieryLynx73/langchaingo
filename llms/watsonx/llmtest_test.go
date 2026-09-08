@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/testing/llmtest"
 	wx "github.com/IBM/watsonx-go/pkg/models"
-	"github.com/tmc/langchaingo/testing/llmtest"
 )
 
 func TestLLM(t *testing.T) {

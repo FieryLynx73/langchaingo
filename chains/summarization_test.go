@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
+	"github.com/FieryLynx73/langchaingo/documentloaders"
+	"github.com/FieryLynx73/langchaingo/internal/httprr"
+	"github.com/FieryLynx73/langchaingo/llms/openai"
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/textsplitter"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/documentloaders"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms/openai"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/textsplitter"
 )
 
 func loadTestData(t *testing.T) []schema.Document {

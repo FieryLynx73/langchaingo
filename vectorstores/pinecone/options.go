@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tmc/langchaingo/embeddings"
+	"github.com/FieryLynx73/langchaingo/embeddings"
 )
 
 const (

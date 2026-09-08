@@ -5,10 +5,10 @@ import (
 	"io"
 	"strings"
 
+	"github.com/FieryLynx73/langchaingo/schema"
+	"github.com/FieryLynx73/langchaingo/textsplitter"
 	"github.com/PuerkitoBio/goquery"
 	"github.com/microcosm-cc/bluemonday"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/textsplitter"
 )
 
 // HTML loads parses and sanitizes html content from an io.Reader.
